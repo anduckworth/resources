@@ -53,4 +53,24 @@
           - For linear regression problems, people typically use a cost function that measires the distance between the linear model's predictions and the training examples; the objective is to minimize the distance
           - Training - feed in yoyur training examples, and find the parameters that make the linear model fit best to your data
   - Combine these like thanos did with the gems
-  - 
+
+## Process
+  - Study the data
+  - Select a model
+  - Train the model on the training data (ie, the learning algorithm searched for the model parameter values that minimize a cost function)
+  - Apply the model to make predictions on new cases, inference
+
+## Bad Data
+  - Insufficient quantity of data
+  - Nonrepresentative Training Data - it is crucial that your training data be representative of the new cases you want to generalize to
+      - If the sample is too small, you will have **sampling noise** (nonrepresentative data as a result of chance
+      - Very large samples can be nonrepresentative if the sampling method is flawed, **sampling bias**
+  - Poor Quality Data
+  - Irrelevant Features
+      - Feature engineering - coming up with a good set of features to train on
+      - Feature selection - selecting the most useful features to train on among existing features
+      - Feature extraction - combining eexisting features to produce a more usefule one, ie. dimensionality reduction
+      - Creating new features by gathering new data
+ 
+ ## Bad Algorithms
+  - Overfitting the training data - model performs well on the training data, but it does not generalize well

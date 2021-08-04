@@ -100,6 +100,7 @@
   - perform cross validation using many small validation sets
 
 
+## Critical Thinking
 
 1. How would you define machine learning? (Buildung systems that learn from data rather than having to hardcode for new data)
 2. Can you name four types of problems where it shines? (Tumor detection, Chatbots, Predicting future revenues, automatically classifying news articles)
